@@ -1,0 +1,146 @@
+[
+  {
+    "timestamp": "2024-03-28 00:59:33",
+    "host": "www.upbit.com",
+    "host_ip": "104.17.185.18",
+    "ping_size": "32",
+    "time": "8",
+    "ttl": "51"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:33",
+    "host": "www.bithumb.com",
+    "host_ip": "23.43.165.",
+    "ping_size": "32",
+    "time": "4",
+    "ttl": "50"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:33",
+    "host": "api.binance.com",
+    "host_ip": "18.64.6.21",
+    "ping_size": "32",
+    "time": "3",
+    "ttl": "245"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:33",
+    "host": "api.upbit.com",
+    "host_ip": "3.37.232.1",
+    "ping_size": "32",
+    "time": "4",
+    "ttl": "237"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:33",
+    "host": "api.bithumb.com",
+    "host_ip": "23.51.28.12",
+    "ping_size": "32",
+    "time": "5",
+    "ttl": "53"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:33",
+    "host": "api.bitflyer.com",
+    "host_ip": "104.76.93.4",
+    "ping_size": "32",
+    "time": "5",
+    "ttl": "50"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:34",
+    "host": "www.bithumb.com",
+    "host_ip": "23.43.165.",
+    "ping_size": "32",
+    "time": "3",
+    "ttl": "50"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:34",
+    "host": "api.binance.com",
+    "host_ip": "18.64.6.21",
+    "ping_size": "32",
+    "time": "5",
+    "ttl": "245"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:34",
+    "host": "www.upbit.com",
+    "host_ip": "104.17.185.18",
+    "ping_size": "32",
+    "time": "6",
+    "ttl": "51"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:34",
+    "host": "api.upbit.com",
+    "host_ip": "3.37.232.1",
+    "ping_size": "32",
+    "time": "5",
+    "ttl": "237"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:34",
+    "host": "api.bithumb.com",
+    "host_ip": "23.51.28.12",
+    "ping_size": "32",
+    "time": "3",
+    "ttl": "53"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:34",
+    "host": "api.bitflyer.com",
+    "host_ip": "104.76.93.4",
+    "ping_size": "32",
+    "time": "3",
+    "ttl": "50"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:35",
+    "host": "api.binance.com",
+    "host_ip": "18.64.6.21",
+    "ping_size": "32",
+    "time": "7",
+    "ttl": "245"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:35",
+    "host": "www.bithumb.com",
+    "host_ip": "23.43.165.",
+    "ping_size": "32",
+    "time": "8",
+    "ttl": "50"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:35",
+    "host": "www.upbit.com",
+    "host_ip": "104.17.185.18",
+    "ping_size": "32",
+    "time": "8",
+    "ttl": "51"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:35",
+    "host": "api.bitflyer.com",
+    "host_ip": "104.76.93.4",
+    "ping_size": "32",
+    "time": "7",
+    "ttl": "50"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:35",
+    "host": "api.bithumb.com",
+    "host_ip": "23.51.28.12",
+    "ping_size": "32",
+    "time": "7",
+    "ttl": "53"
+  },
+  {
+    "timestamp": "2024-03-28 00:59:35",
+    "host": "api.upbit.com",
+    "host_ip": "3.37.232.1",
+    "ping_size": "32",
+    "time": "7",
+    "ttl": "237"
+  }
+]
