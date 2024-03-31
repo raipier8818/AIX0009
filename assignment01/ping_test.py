@@ -6,6 +6,7 @@ import json
 import pandas
 import platform
 from tqdm import tqdm
+import sys
 
 def current_timestamp():
     return datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -76,7 +77,7 @@ def json_to_df(filename):
 def save_df_to_csv(df, filename):
     df.to_csv(filename)
 
-def main():
+def main(duration):
     hosts = {
         "bithumb": "www.bithumb.com",
         "upbit": "www.upbit.com",
@@ -86,11 +87,11 @@ def main():
         "upbit_api": "api.upbit.com"
     }
 
+    now = current_timestamp()
 
     buffer = []
     threads = []
 
-    duration = 3600
     time_interval = 1
 
     for key, val in hosts.items():
@@ -101,8 +102,8 @@ def main():
     for th in threads:
         th.join()
 
-    json_filename = "./ping_result.json"
-    csv_filename = "./ping_result.csv"
+    json_filename = now + "_ping_result.json"
+    csv_filename = now + "_ping_result.csv"
 
     print("Save to json file...")
     save_buffer_to_json(buffer, json_filename)
@@ -111,4 +112,11 @@ def main():
     save_df_to_csv(df, csv_filename)
 
 if __name__ == "__main__":
-    main()
+    args = sys.argv
+    if len(args) == 2:
+        duration = int(args[1])
+        main(duration)
+    else:
+        print("Usage: python ping_test.py [duration]")
+        print("Example: python ping_test.py 10")
+        sys.exit(1)
