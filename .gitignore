@@ -1,0 +1,5 @@
+venv
+*/*.py
+*/README.md
+*/*.pdf
+test.py
