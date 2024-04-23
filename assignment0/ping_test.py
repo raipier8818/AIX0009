@@ -102,6 +102,8 @@ def main(duration):
     for th in threads:
         th.join()
 
+    now = "_".join(now.split(" "))
+    
     json_filename = now + "_ping_result.json"
     csv_filename = now + "_ping_result.csv"
 
