@@ -53,8 +53,8 @@ def get_orderbook(market: str, level: int) -> pd.DataFrame:
         return None
         
     # get timestamp, bids, asks from response
-    timestamp = response.json()["data"]["timestamp"]
-    timestamp = str(datetime.fromtimestamp(int(timestamp[:-3]))) + '.' + timestamp[-3:]
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S.%f")
+    
     bids = response.json()["data"]["bids"]
     asks = response.json()["data"]["asks"]
 
